@@ -6,7 +6,11 @@ NUMBERS:
 -nenormalus:
     - NaN (not-a-number)
     - Infinity; -Infinity
+    true = 1
+    false = 0
     */
+
+    //.OPERATORIAI
 
     const sveikasis = 5;
     const desimtainis = 3.14;
@@ -20,11 +24,28 @@ NUMBERS:
     const dalmuo = pirmas / antras;
     console.log(dalmuo);
 
+    console.log('----------');
     console.log(7 + 5);
     console.log(7 - 5);
     console.log(7 * 5);
     console.log(7 / 5);
   
-    console,log ('----------');
     
 
+    console.log('num; string');
+    console.log(7 + '7');
+    console.log(7 - '5');
+    console.log(7 * '5');
+    console.log(7 / '5');
+
+    console.log('num; true');
+    console.log(7 + true);
+    console.log(7 - true);
+    console.log(7 * true);
+    console.log(7 / true);
+
+    console.log('num; false');
+    console.log(7 + false);
+    console.log(7 - false);
+    console.log(7 * false);
+    console.log(7 / false);
