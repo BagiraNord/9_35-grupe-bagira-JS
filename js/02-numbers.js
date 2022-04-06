@@ -49,3 +49,48 @@ NUMBERS:
     console.log(7 - false);
     console.log(7 * false);
     console.log(7 / false);
+
+    console.log(2 ** 4);
+    console.log(7 % 2);
+    console.log(13 % 5);
+    console.log(13 % 14);
+    
+    
+    console.log('----------');
+    let pinigineAfter = 0;
+    console.log('Pinigine:', pinigineAfter++);
+    console.log('Pinigine:', pinigineAfter++);
+    console.log('Pinigine:', pinigineAfter++);
+
+    console.log('----------');
+    let pinigineBefore = 0;
+    console.log('Pinigine:', ++pinigineBefore);
+    console.log('Pinigine:', ++pinigineBefore);
+    console.log('Pinigine:', ++pinigineBefore);
+
+    console.log('----------');
+    let skolaBefore = 0;
+    console.log('Skola:', --pinigineBefore);
+    console.log('Skola:', --pinigineBefore);
+    console.log('Skola:', --pinigineBefore);
+
+    console.log('----------');
+    let skolaAfter = 0;
+    console.log('Skola:', pinigineAfter--);
+    console.log('Skola:', pinigineAfter--);
+    console.log('Skola:', pinigineAfter--);
+
+    console.log('----------');
+    let b = 0;
+    console.log(b);
+    b = b + 3;
+    console.log(b);
+    b++;
+    b++;
+    b++;
+    console.log(b);
+    b = b + 3;
+    console.log(b);
+
+    
+
