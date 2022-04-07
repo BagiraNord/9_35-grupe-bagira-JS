@@ -8,7 +8,7 @@ function suma(a,b) {
 const r1 = suma(88, 22);
 console.log(r1);
 
-// kintamajam priskirta anonimine funkciaj
+// kintamajam priskirta anonimine funkcija
 const atimtis = function (a, b) {
     return a - b;
 }
@@ -24,4 +24,9 @@ const dalyba = (a, b) => {
 const daugyba = (a, b) => {
     return a * b;
 }
+
+const tekstas = 'Labas rytas';
+const pirmaRaide = s => s[0];
+console.log(pirmaRaide(tekstas));
+
 
