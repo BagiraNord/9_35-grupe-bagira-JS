@@ -10,6 +10,8 @@ function reverseString2(text) {
 }
 
 console.log(reverseString2('xyz'), '-->', 'zyx');
+console.log(reverseString2('labas'), '-->', 'sabal');
+console.log(reverseString2('sula'), '-->', 'alus');
 
 function liekana(nuo, iki, daliklis) {
     let count = 0;
@@ -19,6 +21,9 @@ function liekana(nuo, iki, daliklis) {
             count++;
         }
     }
-    return "Skaičių intervale tarp ${nuo} ir ${iki}, besidalijanciu is liekanos is ${daliklis} yra ${count} vienetai. ;
+    return "Skaičių intervale tarp ${nuo} ir ${iki}, besidalijanciu is liekanos is ${daliklis} yra ${count} vienetai.";
 }
+
+console.log(liekana(8, 31, 7));
+
 
