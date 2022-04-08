@@ -72,3 +72,4 @@ test();
 
 const raides [A, B, C, D];
 const raidziuIlgis = (raides.length >= 100);
+
