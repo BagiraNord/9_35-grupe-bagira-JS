@@ -12,11 +12,5 @@ Mokiniai (array):
             - telefono nr (number)
 */
 
-    const students = []
-    const marks = []
-    const contactName = []
-    const contactPhone = []
-    
-    const studentIndex = 0;
-    
-    console.log('Vardas:', students[studentIndex]);
+    for(let i = 1; i < 5; i++){
+        console.log(i);}
